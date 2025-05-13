@@ -7,8 +7,12 @@ age = 20
 age_in_months =  251.5
 
 #is_student = Yes
+
+# This here was treated as an int
 #is_student = 1
+
 is_student = True
+
 #is_student = T
 
 
