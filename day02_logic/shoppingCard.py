@@ -43,5 +43,3 @@ if discountCode == "yes":
         print(f"Your new discounted total is {newDisTotal}$.")
 else:
     print (f"No problem, you total after tax is {newTotal}$")
-    
-
