@@ -13,7 +13,7 @@ CelToFah = ((tempNumber * (9/5)) + 32)
 if (tempOne == "F") or (tempOne == "f"):
     print(f"{tempNumber}{tempOne} to Celsius is {round(FahToCel, 3)}C.")
 
-elif (tempOne == "C") or (tempOne == "C"):
+elif (tempOne == "C") or (tempOne == "c"):
     print(f"{tempNumber}{tempOne} to Fahrenheit is {round(CelToFah, 3)}F.")
 
 else: 
