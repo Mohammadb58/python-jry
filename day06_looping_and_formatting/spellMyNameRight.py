@@ -2,15 +2,17 @@
 
 print("----------------------------------")
 
-name1 = input("Please enter my name: ")
+name = input("Please enter my name: ")
 
-name2 = name1.strip()
-name = name2.lower()
+name2 = name.strip().lower()
 
-while not name.lower() == "mohammad":
+print(f"{name2} <---")
+
+while not name2 == "mohammad":
     print("❌ You can't spell my name!😔")
-    name = input("Please enter my name: ")
+    name2 = input("Please enter my name: ")
+    name2 = name2.strip().lower()
 
-print(f"✅Yup, that is how u spell my name {name.upper()} ☺️")
+print(f"✅Yup, that is how u spell my name 'Mohammad' ☺️")
 
 print("----------------------------------")
