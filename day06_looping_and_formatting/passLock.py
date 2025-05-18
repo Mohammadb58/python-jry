@@ -4,36 +4,43 @@ print("----------------------------------")
 
 userPass1 = input("What do you think the password is: ")
 
-userPass2 = userPass1.strip()
-userPass3 = userPass2.lower()
+userPass2 = userPass1.strip().lower()
 
-if not userPass3 == "league":
-    print("❌ Wrong, you got 2 attempts left")
-    userPass4 = input("What do you think the password is: ")
+attemptsCount = 1
+if userPass2 == "league":
+    userPassBool = True 
+else:
+    userPassBool = False
     
-    if not userPass4 == "league":
-        print("❌ Wrong, you got 1 attempts left")
-        userPass5 = input("What do you think the password is: ")
-        
-        if not userPass5 == "league":
-            print("❌ Wrong, Access Denied")
-            
+if attemptsCount <= 4:
+    attemptsCountBool = True 
+else:
+    attemptsCountBool = False 
+
+while (userPassBool == False) or (attemptsCountBool == False):
+    if attemptsCount <= 4:
+        if attemptsCount == 1:
+            print("❌ Wrong, You got 3 attempts left")
+            userPass2 = input("What do you think the password is: ")
+            userPass2 = userPass2.strip().lower()
+            attemptsCount += 1
+        elif attemptsCount == 2:
+            print("❌ Wrong, You got 2 attempts left")
+            userPass2 = input("What do you think the password is: ")
+            userPass2 = userPass2.strip().lower()
+            attemptsCount += 1
+        elif attemptsCount == 3:
+            print("❌ Wrong, You got 1 attempt left")
+            userPass2 = input("What do you think the password is: ")
+            userPass2 = userPass2.strip().lower()
+            attemptsCount += 1
         else:
-            print("✅ Wow, you got it")
-    
+            attemptsCountBool = False
     else:
-        print("✅ Wow, you got it")
-              
-else: 
-    print("✅ Wow, you got it")
+        userPassBool = False
 
-
-
-"""while not userPass3 == "league":
-    print(f"{userPass3} <---")
-    print("❌ Wrong, you got 2 attempts left")
-    userPass3 = input("What do you think the password is: ")
-    print("❌ Wrong, you got 1 attempt left")
-    userPass3 = input("What do you think the password is: ")
-    
-"""
+if (userPassBool == True) and (attemptsCountBool == True):
+    print("X")
+else:
+    print("X")
+print("✅ ACCESS")
