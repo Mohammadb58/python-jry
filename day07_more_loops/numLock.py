@@ -1,5 +1,6 @@
 # Number lock mini game
-
+# The program works however it can be done in fewer lines there
+# is too much going on ill keep going and come back later
 print("------------------------------------------------\n")
 print("💀 Challenge: The Number Lock\n")
 
