@@ -1,5 +1,4 @@
 # more loops 
-'''
 #for loop #1
 userNum = int(input("How many squares of numbers would you like: "))
 
@@ -39,7 +38,6 @@ if userMulNum == True:
         print(f"{userMulNum1} x {i} = {result}");
 else:
     print("Invaild choice")
-'''
 
 userNumSuit = input("Please enter a number for the suitcase: ")
 
