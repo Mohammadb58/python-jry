@@ -11,6 +11,7 @@ for i in range(0, 3):
         userNumBool = userNum.isdigit()
     if userNum == '58':
         print("\nCorrect")
+        corrBool = True
         break
     elif userNum != '58':
         if i == 0:
@@ -19,8 +20,9 @@ for i in range(0, 3):
             print("\nStill not it")
         elif i == 2:
             print("\nLast chance…")
-    
-if userNum == '58':
+# checking 'if userNum == '58':' was ok becuase i had 
+#ONE break if i had more than there could be an issue!  
+if corrBool:
     print("\nFull Access\n")
         
 else:
