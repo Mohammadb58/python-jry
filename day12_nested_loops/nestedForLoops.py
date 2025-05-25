@@ -81,10 +81,27 @@ for i in range(1,6):
     for k in range(1, i+1):
         print(f" {k}  ", end="")
     print()
-    '''
+    
 for i in range(1, 6):
     for j in range(10 - 2 * i):
         print(" ", end="")
     for k in range(1, i + 1):
         print(f"{k:<3}", end="")
     print()
+
+
+for i in range(1,6):
+    for j in range(5-i):
+        print(" ", end="")
+    for k in range(1, i + 1):
+        if i == 1:
+            print(f"{k} ", end="")
+        elif i == 5:
+            print(f"{k} ", end="")
+        else:
+            print(f" ", end="")       
+    print()
+    '''
+    
+    
+    
