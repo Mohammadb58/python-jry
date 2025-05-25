@@ -48,7 +48,7 @@ for i in range(1,7):
         else:
             print(". ", end="")    
     print()
-    '''
+
 print('1 2 3 4 5')
 print('2 4 6 8 10')
 print('3 6 9 12 15')
@@ -60,3 +60,19 @@ for i in range(1,6):
     for j in range(1,6):
         print(f"{j * i} ", end="")
     print() 
+        '''
+        
+for i in range(1,10):
+    if i<=5:
+        for j in range(5-i):
+            print(" ", end="")
+        for k in range(1, i+1):
+            print(f"{k} ", end="")
+    else:
+        for j in range(i-5):
+            print(" ", end="")
+        for k in range(1, 11-i):
+            print(f"{k} ", end="")
+    print()
+    
+    
