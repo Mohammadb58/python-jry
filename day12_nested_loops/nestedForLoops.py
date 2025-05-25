@@ -102,6 +102,15 @@ for i in range(1,6):
             print(f" ", end="")       
     print()
     '''
+count = 1  
+for i in range(1,7):
+    for j in range(count,count+6):
+        if j % 3 == 0:
+            print("M","",end="")
+        else:
+            print(j,"", end="")
+    count+=6
+    print()
     
     
     
