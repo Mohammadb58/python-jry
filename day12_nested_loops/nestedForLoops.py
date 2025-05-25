@@ -1,4 +1,3 @@
-'''
 for i in range (1,4):
     for j in range(1,4):
         print(f" inner loop -{j}- ", end="")
@@ -101,7 +100,7 @@ for i in range(1,6):
         else:
             print(f" ", end="")       
     print()
-    '''
+
 count = 1  
 for i in range(1,7):
     for j in range(count,count+6):
@@ -111,6 +110,3 @@ for i in range(1,7):
             print(j,"", end="")
     count+=6
     print()
-    
-    
-    
