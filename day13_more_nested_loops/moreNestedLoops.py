@@ -1,3 +1,4 @@
+'''
 for rows in range(1,6):
     for cols in range(1,6):
         if (rows + cols) % 2 ==0:
@@ -26,3 +27,15 @@ for i in range(1,6):
     print()
     counter+=5
 print("-----------------------------")    
+'''
+size=10
+for i in range(1,size+1):
+    for j in range(1,size+1):
+        if i == 1 or i == size:
+            print("* ", end="")
+        else:
+            if j==1 or j==size:
+                print("* ", end="")
+            else:
+                print("  ",end="")
+    print()
