@@ -35,7 +35,7 @@ for i in range(5, 0, -1):
     for k in range(1, i+1):
         print(f"{k} ", end="")
     print()
-    '''
+
     
 for i in range(1,7):
     #if i % 2 == 0:
@@ -48,3 +48,15 @@ for i in range(1,7):
         else:
             print(". ", end="")    
     print()
+    '''
+print('1 2 3 4 5')
+print('2 4 6 8 10')
+print('3 6 9 12 15')
+print('4 8 12 16 20')
+print('5 10 15 20 25')
+print('-------------')
+
+for i in range(1,6):
+    for j in range(1,6):
+        print(f"{j * i} ", end="")
+    print() 
