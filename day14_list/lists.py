@@ -1,4 +1,4 @@
-names = ['mohammad', 'ali', 'adam']
+names = ['mohammad', 'ali', 'adam', 'ali']
 
 for name in names:
     print(name, "- ", end="")
@@ -34,5 +34,35 @@ names.remove('ali')
 for name in names:
     print(name, "- ", end="")
 print()
+
+print("-----------------------------")
+
+names.insert(10, 'MK')
+for name in names:
+    print(name, "- ", end="")
+print()
+
+print("-----------------------------")
+
+names.reverse()
+for name in names:
+    print(name, "- ", end="")
+print()
+
+print("-----------------------------")
+
+names.clear()
+for name in names:
+    print(name, "- ", end="")
+print()
+
+print("-----------------------------")
+
+# this wont run becuase the list is clear 
+print(names.index("malek"))
+
+print("-----------------------------")
+
+print(names.count("ali"))
 
 print("-----------------------------")
