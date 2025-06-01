@@ -97,7 +97,6 @@ print(listA.count(' '))
 print(listA.count(''))
 print(listA.count('ali'))
 print(listA)
-'''
 
 myString = 'mohammad @ 58 '
 
@@ -111,3 +110,53 @@ print(myString.find('q'))
 print(myString.find('@'))
 print(myString.find(' '))
 print(myString.find(''))
+'''
+# insert vs append review  
+strings = []
+
+strings.append('python')
+
+for string in strings:
+    print(string,'',end='')
+print()
+strings.append('cpp')
+  
+for string in strings:
+    print(string,'',end='')
+
+print()
+strings.append('java')
+  
+for string in strings:
+    print(string,'',end='')
+    
+print()
+strings.insert(4,'JS')
+  
+for string in strings:
+    print(string,'',end='')
+    
+print()
+strings.insert(0,'Scratch')
+  
+for string in strings:
+    print(string,'',end='')
+    
+print()
+strings.insert(100,'NONE')
+  
+for string in strings:
+    print(string,'',end='')
+
+print()
+strings.insert(-100,'NONE2')
+  
+for string in strings:
+    print(string,'',end='')
+ 
+# i guess this works like strat from the e 
+print()
+strings.insert(-1,'NONE3')
+  
+for string in strings:
+    print(string,'',end='')
