@@ -75,7 +75,6 @@ for m in range(0,21,-200):
 print() 
 for n in range():
     print(n,'',end='')
-'''
 
 # ,count() practice/review
 
@@ -98,3 +97,17 @@ print(listA.count(' '))
 print(listA.count(''))
 print(listA.count('ali'))
 print(listA)
+'''
+
+myString = 'mohammad @ 58 '
+
+print(myString.find('m'))
+# i though '2' would allow mw to
+# find 2 occur but the '2' and '4'
+# are start at indices 
+print(myString.find('m',2))
+print(myString.find('m',4))
+print(myString.find('q'))
+print(myString.find('@'))
+print(myString.find(' '))
+print(myString.find(''))
