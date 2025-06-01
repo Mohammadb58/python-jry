@@ -40,7 +40,6 @@ print(bool)
 bool = 11
 print(bool)
 
-'''
 
 print(bool(''))
 print(bool('False'))
@@ -49,4 +48,30 @@ print(bool('falsee'))
 print(bool(1))
 print(bool({False}))
 print(bool([]))
+'''
 
+# for loops practice 
+
+for i in range(1,11):
+    print(i, '', end='')
+print() 
+
+# it wont run w/o the -1 step
+for j in range(10,0,-1):
+    print(j, '', end='')
+
+print() 
+for k in range(0,21,2):
+    print(k,'',end='')
+
+print() 
+for l in range(0,21,200):
+    print(l,'',end='')
+
+print() 
+for m in range(0,21,-200):
+    print(m,'',end='')
+    
+print() 
+for n in range():
+    print(n,'',end='')
