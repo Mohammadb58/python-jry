@@ -48,7 +48,7 @@ print(bool('falsee'))
 print(bool(1))
 print(bool({False}))
 print(bool([]))
-'''
+
 
 # for loops practice 
 
@@ -75,3 +75,26 @@ for m in range(0,21,-200):
 print() 
 for n in range():
     print(n,'',end='')
+'''
+
+# ,count() practice/review
+
+name = 'mohammad a'
+print(name.count(' '))
+print(name.count(''))
+print(name.count('m'))
+# int not allowed
+#print(name.count(1))
+print('-----------------------')
+#num = 123456789
+num = '123456789'
+print(num.count(' '))
+print(num.count(''))
+print(num.count('4'))
+
+print('-----------------------')
+listA = ['moe', 'ali', 'mk']
+print(listA.count(' '))
+print(listA.count(''))
+print(listA.count('ali'))
+print(listA)
