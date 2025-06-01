@@ -1,4 +1,4 @@
-'''
+
 # split practice 
 userList = 'm o h a m m a d'
 print(userList.split(' '))
@@ -110,7 +110,7 @@ print(myString.find('q'))
 print(myString.find('@'))
 print(myString.find(' '))
 print(myString.find(''))
-'''
+
 # insert vs append review  
 strings = []
 
@@ -160,3 +160,4 @@ strings.insert(-1,'NONE3')
   
 for string in strings:
     print(string,'',end='')
+    
