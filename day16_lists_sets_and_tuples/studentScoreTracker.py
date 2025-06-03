@@ -4,8 +4,6 @@ avrList = []
 name = ''
 totalScore = 0
 counter = 0
-highestScore = score
-lowestScore = score
 print("\nWlecome to the Student Score Tracker")
 
 while True:
@@ -21,14 +19,6 @@ while True:
     list.append(subList)
             
 print(f"\nThe length of your list is", len(list))
-'''
-for score in list:
-    if list[1]:
-        avrList.append(score)
-    else:
-        continue
-'''
-
 for student in list:
     avrList.append(student[1])
     
@@ -37,10 +27,10 @@ for score in avrList:
     counter += 1
 total = totalScore / counter
 print(f"\nThe avrage score of your list is {total:.2f}")
-
+score = int(score)
+highestScore = score[1]
+lowestScore = score[1]
 for score in avrList:
-    highestScore = score
-    lowestScore = score
     if score >= highestScore:
         highestScore = score
     elif score < lowestScore:
