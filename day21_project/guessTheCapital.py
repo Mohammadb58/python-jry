@@ -1,4 +1,5 @@
 # Guess the capital mini project
+# there are still edge casses need covering!
 import time
 import random
 
@@ -125,7 +126,7 @@ for question in questions:
         if userGuess.lower() == question[1]:
             print("\n✅ Correct!\n")
             score += 1
-            guesses += 1
+            #guesses += 1 this caused an edge case to fail
             guessesAvr += 1
             break
         elif userGuess.lower() == 'q':
