@@ -148,4 +148,4 @@ elif newScore > 30:
      message = "You definitely can do better! 😕"
 else:
      message = "That was a bad game. Try again! 😬"
-print(f"\nThanks for playing! Your score is {score} / {guessesAvr} for an accuracy of {newScore}%, {message}\n")
+print(f"\nThanks for playing! Your score is {score} / {guessesAvr} for an accuracy of {newScore:.2f}%, {message}\n")
