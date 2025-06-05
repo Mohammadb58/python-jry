@@ -142,9 +142,9 @@ for question in questions:
 newScore = (score / guessesAvr) * 100
 if newScore >= 70:
     message = "That is impressive. 🏆"
-elif newScore > 50:
+elif newScore >= 50:
     message = "Not too bad I guess. 👍"
-elif newScore > 30:
+elif newScore >= 30:
      message = "You definitely can do better! 😕"
 else:
      message = "That was a bad game. Try again! 😬"

@@ -7,7 +7,7 @@ dictionary = {'Mohammad' : 90,
 for name, grade in dictionary.items():
     print(name, '', grade)
 print()   
-# This will retuen the value of the given key
+# This will return the value of the given key
 # 90 in this case
 print(dictionary.get('Mohammad'))
 
