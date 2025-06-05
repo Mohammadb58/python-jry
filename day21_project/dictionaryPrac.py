@@ -1,5 +1,4 @@
 # Practicing Dictionary
-
 dictionary = {'Mohammad' : 90,
               'Ali' : 88,
               'Malek' : 99} 
