@@ -5,10 +5,10 @@ import time
 import random
 
 print("\n-Welcome to the Reaction Time Test 🧪")
-#time.sleep (2)
+time.sleep (2)
 
 print("\n-The rules are you have to press enter right once you see\n\n 'NOW' and I will track your reaction time.")
-#time.sleep(2)
+time.sleep(2)
 
 
 while True:
