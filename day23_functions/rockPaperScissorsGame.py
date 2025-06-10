@@ -10,7 +10,7 @@ while playing:
     programChoice = random.choice(game)
     while True:
         userChoice = input("\nWhat is your pick (rock, paper, scissors): ")
-        if userChoice not in game:
+        if userChoice.strip().lower() not in game:
             print('\nInvaild choice')
             continue 
         if userChoice.lower().strip() == programChoice:
